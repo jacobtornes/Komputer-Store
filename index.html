@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komputer Store</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Komputer Store</h1>
+    </div>
+    <div class="section-container">
+      <div class="sectionTemplate">
+        <h2>Joe Banker</h2>
+        <div>Balance: <span id="show-balance"></span> Kr</div>
+        <div id="showLoan" style="margin-top: 5px;">Loan: <span id="loan-amount"></span> Kr</div>
+
+        <button id="loan-button" class="button">Get a loan</button>
+      </div>
+
+      <div class="sectionTemplate">
+        <h2>Work</h2>
+        <div id="pay-amount">Pay: 0 Kr</div>
+        <div class="bank-buttons">
+        <button id="send-to-bank" class="button">Bank</button>
+        <button id="increase-pay" class="button">Work</button>
+        <button id="repay-loan-button" class="button button-style2 hidden">Repay Loan</button>
+        </div>
+      </div>
+
+      <div class="sectionTemplate">
+        <h2>Laptops</h2>
+        <select name="laptop" id="laptop-select" onchange="selectLaptop(this.value)">
+          
+        </select>
+        <h4>Features:</h4>
+        <div id="laptop-features" class="smallerFont"></div>
+      </div>
+    </div>
+
+    <div class="laptopInformationArea">
+      <div class="">
+        <img id="laptop-image" src="https://via.placeholder.com/200" alt="Computer"
+        />
+      </div>
+
+      <div class="laptopDescription">
+        <h3 id="laptop-name"></h3>
+
+        <div id="laptop-description">
+          
+        </div>
+      </div>
+
+      <div class="laptopBuyNow">
+        <!-- Insert price and buy now button-->
+
+        <h4 style="margin-left: 72px;" id="laptop-price"></h4>
+
+        <button id="buy-laptop-button" class="buy-now-button button" disabled>BUY NOW</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

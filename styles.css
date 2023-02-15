@@ -1,0 +1,118 @@
+body{
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************* ID's **************************/
+
+#loan-button{
+    background-color: #03C988;
+    margin-top: 25px;
+}
+
+#laptop-image{
+    width: 200px;
+    margin: 21px;
+}
+
+#bank-id{
+
+    width: 100px;
+    background-color: #F5EA5A;
+}
+
+#increase-pay{
+
+    background-color: blue;
+    color: white;
+
+    
+}
+
+#send-to-bank{
+    background-color: #F5EA5A;
+}
+
+
+/****************** CLASSES ************************/
+
+.bank-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.buy-now-button{
+    background-color: skyblue;
+    width: 200px;
+    padding: 8px;
+}
+
+.hidden{
+
+    visibility: hidden;
+}
+
+.header {
+    background-color: #222831;
+    padding: 10px; 
+    color: white;
+}
+
+.section-container{
+    width: 1000px;
+    height: auto;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionTemplate {
+
+    border: 1px solid rgb(240, 238, 237);
+    padding: 20px;
+    width: 260px;
+    height: 250px;
+    background-color: #F0EEED;
+    border-radius: 10px;
+}
+
+.laptopInformationArea{
+    border: 1px rgb(240, 238, 237);
+    width: 1000px;
+    height: 250px;
+    margin: 60px auto; 
+    justify-content: space-around; /*Centers child elements */
+    display: flex;
+    background-color: #F0EEED;
+    border-radius: 10px;
+    
+}
+
+
+.laptopDescription{
+    margin: 40px;
+    width: 400px;
+}
+
+.laptopBuyNow{
+    margin: 40px;
+    width: 200px;
+}
+
+.smallerFont{
+    font-size: 0.7rem;
+}
+
+.button{
+    padding: 8px;
+    border-width: 0px;
+    border-radius: 4px;
+    min-width: 75px;
+}
+
+.button-style2{
+    background-color: aquamarine;
+    width: 80px;
+}
